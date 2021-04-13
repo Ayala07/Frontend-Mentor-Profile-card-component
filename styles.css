@@ -11,11 +11,13 @@
 --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
 --Dark-grayish-blue: hsl(227, 10%, 46%);
 --Dark-gray: hsl(0, 0%, 59%);
+--Font-name: 18px;
 }
 
 body{
     background-color: var(--Dark-cyan);
-    
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .container{
@@ -64,3 +66,26 @@ body{
     border-radius: 7% 7% 0 0;
 }
 
+.main__person-info h2{
+    display: inline-block;
+    padding: 20px 10px 9px 0;
+    font-size: var(--Font-name);
+}
+
+.main__person-info small{
+    display: block;
+    margin-bottom: 22px;
+}
+
+.card__footer{
+    border-top: 1px solid var(--Dark-gray);
+}
+
+.footer__followers, .footer__likes, .footer__photos{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+}
+
+.footer__followers, .footer__likes, .footer__photos h4{
+    font-size: var(--Font-name);
+}
