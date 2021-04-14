@@ -110,7 +110,7 @@ body{
     margin: 22px 28px 22px 28px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .img-top{
         right: 48%;
         bottom: 44%;
